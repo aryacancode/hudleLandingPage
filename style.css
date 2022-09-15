@@ -24,6 +24,7 @@
     border-radius: 25px;
     background-color: #fff;
     color: black;
+    cursor: pointer;
 }
 .header-main-content{
     margin-top: 50px;
@@ -59,6 +60,10 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
+}
+.header-main-content-button:hover, .pop-up-button:hover{
+    background-color: hsl(322, 81%, 75%);
+    cursor: pointer;
 }
 .header-main-content-img{
     width: 670px;
@@ -159,6 +164,9 @@
 .footer-column-2, .footer-column-3, .footer-column-4{
     margin-top: 3%;
 }
+.column-p{
+    margin-bottom: 11%;
+}
 .sec-1{
     width: 320px;
     margin-top: 5%;
@@ -242,6 +250,9 @@ footer p{
         margin-left: auto;
         margin-right: auto;
     }
+    .column-p{
+        margin-bottom: 6%;
+    }
     footer{
         margin-top: 4%;
     }
@@ -297,13 +308,16 @@ footer p{
     .box-1-text, .box-3-text{
         margin-right: 7%;
     }
+    .box-text-1{
+        font-size: 25px;
+    }
     .pop-up{
         margin-top: 15%;
-        width: 380px;
-        height: 180px;
+        width: 350px;
+        height: 160px;
     }
     .pop-up-text{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 5%;
     }
     .footer{
@@ -315,5 +329,12 @@ footer p{
     }
     .footer-column{
         font-size: 15px;
+        gap: 0cm;
+    }
+    .footer-column-2{
+        margin-top: 10%;
+    }
+    .footer-column-3{
+        margin-top: 1%;
     }
 }
